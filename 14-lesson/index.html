@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <a href="http:google.com" target="_blank">google</a>
+    <form action="./thank.html" target="_blank" contenteditable="true" method="get">
+        <input type="text" name="fullname" placeholder="enter your name" value="John Smith">
+        <br>
+        <label for="">enter your comment</label><br>
+        <textarea name="comment" 
+        id="commentField" rows="10"
+        style="width: 50px; resize: vertical;"
+        placeholder="enter your comment"
+        value="thfhdshdg"><b>hello</b></textarea>
+        <div contenteditable="true">
+            <b>asd as</b>
+        </div>
+            <form method="post" autocomplete="off" novalidate>
+                <fieldset style="width: 400px;">
+                <legend>general</legend>
+            <label style="float: left; ">
+            name <br>
+        <input type="text" name="name" list="namelist" autocomplete="on">
+    </label>
+    <label style="width: 50px;">
+    secundname
+<br>
+&nbsp;
+<input type="text" name="secundname">
+</label>
+<datalist id="namelist">
+    <option value="John Smith">Jon dsf fgykghg</option>
+</datalist>
+<input type="email" name="email" required>
+<input type="password" name="pass">
+</fieldset>
+<fieldset>
+    <legend>additional</legend>
+    <input type="checkbox" name="agree" value="is-agree" checked>
+    <label>
+        <input type="radio" name="gender" value="w">
+        women
+    </label>
+    <br>
+    <select name="favcar" id="" size="3" multiple>
+        <option value="bmw">BMW</option>
+        <option value="Lex" selected>Lexus</option>
+        <option value="Jag">Jaguar</option>
+    </select>
+</fieldset>
+<input type="hidden" name="isHiddenField" value="alice in wonderland">
+<button>login</button>
+            </form>
+        
+    </form>
+    
+</body>
+</html>
