@@ -1,0 +1,40 @@
+.block1 {
+    background: chocolate;
+    border: 8px dotted green;
+    padding: 25px;
+    color: white;
+}
+
+.block2 {
+    background-color: black;
+    border: 20px solid black;
+    color: transparent;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+
+}
+
+.block3 {
+    background-color: blueviolet;
+    color: white;
+    border: double 1.5rem green;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 50%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin: auto;
+
+}
+#heading1 {
+    color: brown;
+}
+#heading1{
+    background-color: black;
+}
