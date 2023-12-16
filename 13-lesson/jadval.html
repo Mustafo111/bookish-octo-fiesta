@@ -1,33 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
 </head>
+
 <body>
-    <h3>Personal Data</h3>
-<label>
-        Last name* 
+    <fieldset style="width: 400px;">
+        <legend>Personal Data</legend>
+        <label>
+            Last Name*
+            <br>
+            <input type="text" style="width: 390px;">
+        </label>
+        <label style="float: left; width: 200px;">
+            Firs Name* <br>
+            <input style="width: 210px;" type="text" name="Firs Name*" list="namelist" autocomplete="on">
+        </label>
+        <label style="float: right; width: 180px; text-align: right;">Middle names
+            <br>
+            <input type="text" name="Middle name">
+        </label>
         <br>
-        <input type="text" style="width:400px;">
-    </label>
-    <br>
-    <label>
-        Firs Name* Middle name
+        <label>
+            Email* <br>
+            <input type="email" style="width: 390px; height: 18px;">
+        </label>
+        <label>
+            Resume* <br>
+            <input type="text" style="width: 390px; height:60px">
+        </label>
+    </fieldset>
+    <fieldset style="width:400px;">
+        <legend>Job</legend>
+        <label style="float: left; width: 250px;">
+            Positsion applied for
+            <br>
+            <select name="job" id="" size="1" multiple>
+                <option value="Menejer" style="width: 220px;">Menejer</option>
+                <option value="Administration" style="width: 220px;">Administration</option>
+                <option value="Director" style="width: 220px;">Director</option>
+            </select>
+        </label>
+        <label style="float: right; text-align: right;">
+            Hourly Wage*
+            <br>
+            <input type="text" style="text-align: right; width: 65px;">
+        </label>
+        <label style="float: left; width: 300px; text-align: left;">
+            Date you can start
+            <br>
+            <select name="month" id="" size="1" multiple>
+                <option value="january" style="width: 45px;">january</option>
+                <option value="February" style="width: 45px;">February</option>
+                <option value="March" style="width: 45px;">March</option>
+                <option value="April" style="width: 45px;">April</option>
+                <option value="May" style="width: 45px;">May</option>
+                <option value="June" style="width: 45px;">June</option>
+                <option value="July" style="width: 45px;">July</option>
+                <option value="August" style="width: 45px;">August</option>
+                <option value="September" style="width: 45px;">September</option>
+                <option value="Oktober" style="width: 45px;">Oktober</option>
+                <option value="November" style="width: 45px;">November</option>
+                <option value="December" style="width: 45px;">December</option>
+            </select>
+            <br>
+        </label>
+        <label style="float:right; text-align: right;">
+            Weekly Hours
+            <br>
+            <input type="text">
+        </label>
+        <label style="float: left;"><br>
+            <select name="number" id="" size="1" multiple>
+                <option value="14" style="width: 45px;">14</option>
+                <option value="15" style="width: 45px;">15</option>
+                <option value="16" style="width: 45px;">16</option>
+            </select>
+        </label>
         <br>
-        <input type="text" style="width: 205px;">           
-    </label>
-    <label>
-        <input type="text" style="width: 185px;">
-    </label>
-    <br>
-    <label>
-        Email* <br>
-        <input type="email" style="width: 400px; height: 70px;">
-    </label>
-    <h3><b>Job</b></h3>
-    positsion applied for              Hourly Wage* <br> 
-      <input type="number">
+        <label style="float:left">
+            <br>
+            <select name="number" id="" size="1" multiple>
+                <option value="2019" style="width: 60px;">2019</option>
+                <option value="2020" style="width: 60px;">2020</option>
+                <option value="2021" style="width: 60px;">2021</option>
+            </select> </label>
+
+
+    </fieldset>
+    </form>
 </body>
+
 </html>
