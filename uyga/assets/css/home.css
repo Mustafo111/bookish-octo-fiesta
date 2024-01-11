@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(250, 71, 39);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 58px;
+    align-items: center;
+} 
+
+.room {
+font-size: 36px;
+color: aliceblue;
+text-decoration: none;
+}
+
+.nav-link {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+    background-color: rgb(200, 98, 98);
+    display: flex;
+    flex-grow: 1;
+}
+aside {
+    background-color: brown;
+    flex-basis: 20rem;
+    min-height: 250px;
+}
+.room2 {
+    flex: content;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 50px;       
+}
+
+section {
+    display: flex;
+    min-height: 370px;
+}

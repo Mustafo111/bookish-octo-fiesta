@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    
+}
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.main {
+    background-color: skyblue;
+    padding: 2rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.flex-item {
+    padding: 2rem;
+    background-color: yellow;
+    
+}
+.item1 {
+    flex-grow: 2;
+    height: 120px
+}
+.item2 {
+    flex-grow: 6.5;
+}
+.item3 {
+    flex-grow: .5;
+    height: 70px;
+}
+.item4 {
+    flex-grow: .5;
+}
+.item5 {
+    flex-grow: .5;
+}
+.item6 {
+    flex-grow: .5;
+}
+.item7 {
+    flex-grow: 1.7;
+}
+.item8 {
+    flex-grow: 2;
+    height: 220px;
+}
+.item9 {
+    flex-grow: 4;
+}
+.item10 {
+    flex-grow: 1.5;
+}
