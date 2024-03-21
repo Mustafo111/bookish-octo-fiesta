@@ -1,0 +1,42 @@
+*{
+    text-decoration: ali
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(1, 2, 20, 1);
+    justify-content: center;
+    align-items: center;
+}
+.orqa {  
+    height: 600px;
+    width: 95%;
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    
+    border-radius: 0px 0px 50px 50px;
+}    
+
+.border {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    padding: 6px 10px 6px 10px;
+    background-color:  rgba(123, 123, 123, 0.16);
+    border-radius: 30px;
+    color: white;
+    
+}
+.sarlavha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    height: 170px;
+    padding: 10px;
+    font-size: 25px;
+    
+}

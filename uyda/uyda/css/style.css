@@ -1,0 +1,209 @@
+body {
+    background: rgba(0, 36, 74, 1);
+    margin: 0;
+    padding: 0px;
+    display: block;
+}
+.header {
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    max-width: 1440px;
+    gap: 20px;
+}
+
+.header-a {
+    /* display: flex;
+    align-items: center; */
+  
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header-a span {
+    padding-top: 4px;
+}
+.logo-img {
+    height: 64px;
+}
+
+.van {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+.inline {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-blue {
+    font-size: 17px;
+    color: white;
+    
+    max-width: 157px;
+    height: 46px;
+    background: rgba(0, 148, 255, 1);
+    border-radius: 10px;
+}
+.conntainer {
+    background: rgba(0, 97, 255, 1);
+    height: 1399px;
+    width: auto;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+.btn {
+    border: 2px solid rgba(238, 106, 90, 1);
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.conntainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+     align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    
+}
+
+.top{
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+
+}
+.let {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 80px;
+    font-style: initial; 
+    line-height: 84px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+.slayt {
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    height: 642px;
+    background: url(../css/IPHONE\ WHITE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.opa{
+    border-radius: 40%;
+    width: 29px;
+    height: 29px;
+}
+.steel-1{
+    background: white;
+    width: 236.21px;
+    height: 309.42px;
+    top: 584px;
+    left: 66px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    opacity: 0.5px;
+}
+.steel-2 {
+    background-color: white;
+    width: 234.82px;
+    height: 309.42px;
+    top: 584px;
+    left: 320.16px;
+    gap: 0px;
+    border-radius: 8px; 
+    opacity: 0.75px;
+}
+.steel-3 {
+    background-color: white;    
+    width: 262px;
+    height: 343px;
+    top: 594px;
+    left: 595px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+}
+.steel-4 {
+    background-color: white;
+    width: 233.44px;
+    height: 305.96px;
+    top: 587.45px;
+    left: 891.34px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0.75px;
+    }
+.steel-5{
+    background-color: white;
+    width: 232.06px;
+    height: 305.96px;
+    top: 587.45px;
+    left: 1142.74px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0.5px;
+}
+.word {
+    color: white;
+    width: 1200px;
+    height: 80px;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+.button {
+    margin-top: 2rem;
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 53px;
+    border-radius: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+}
+.spot { 
+    color: white;
+    margin-top: 2rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
