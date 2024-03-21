@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: rgba(0, 36, 74, 1);
     margin: 0;
@@ -111,65 +116,68 @@ body {
     display: flex;
     justify-content:space-between;
     gap: 30px;
-    height: 642px;
+  
     background: url(../css/IPHONE\ WHITE.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-size: contain;
+    padding: 200px 28px;
+    min-height: calc(642px / 315 * (392 + 32));
+    align-items: start;
 }
 .opa{
     border-radius: 40%;
-    width: 29px;
-    height: 29px;
+    width: 30px;
+    height: 30px;
 }
-.steel-1{
+.steel{
     background: white;
-    width: 236.21px;
-    height: 309.42px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
     top: 584px;
     left: 66px;
     gap: 0px;
     border-radius: 8px 8px 8px 8px;
     opacity: 0.5px;
+    padding: 20px 14px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: .85;
 }
-.steel-2 {
-    background-color: white;
-    width: 234.82px;
-    height: 309.42px;
-    top: 584px;
-    left: 320.16px;
-    gap: 0px;
-    border-radius: 8px; 
-    opacity: 0.75px;
+.steel header {
+    align-items: center;
+    
 }
-.steel-3 {
-    background-color: white;    
-    width: 262px;
-    height: 343px;
-    top: 594px;
-    left: 595px;
-    gap: 0px;
-    border-radius: 15px;
-    opacity: 0px;
+.steel .title p {
+   font-size: 12px;
+   
 }
-.steel-4 {
-    background-color: white;
-    width: 233.44px;
-    height: 305.96px;
-    top: 587.45px;
-    left: 891.34px;
-    gap: 0px;
-    border-radius: 8px;
-    opacity: 0.75px;
-    }
-.steel-5{
-    background-color: white;
-    width: 232.06px;
-    height: 305.96px;
-    top: 587.45px;
-    left: 1142.74px;
-    gap: 0px;
-    border-radius: 8px;
-    opacity: 0.5px;
+
+.steel .description p {
+    margin-bottom: 20px;
+}
+
+.steel:first-child, .steel:last-child {
+    opacity: .65;
+}
+
+.gap-8px {
+    gap: 8px;
+}
+.steel footer {
+   gap: 12px;
+}
+.steel footer .counter span:last-child {
+    color: gray;
+}
+
+.steel.active {
+    transform: scale(1.1) translateY(28px);
+    margin-left: 24px;
+    margin-right: 24px;
+    opacity: 1;
 }
 .word {
     color: white;
